@@ -1,0 +1,35 @@
+# {{ role_name }}
+
+A brief description of {{ role_name }} goes here.
+
+## Default Variables
+
+| Variable Name | Description | Default Value | Variable Type | Required |
+| --- | --- | --- | --- | --- |
+| myvar | Modifies X, Y, Z for {{ role_name }} | "abc" | string | yes |
+
+## Additonal Variables
+| Variable Name | Description | Default Value | Variable Type | Required |
+| --- | --- | --- | --- | --- |
+|  |  |  |  |
+
+## {{ role_name }} Dependencies
+* dep1
+* dep2
+
+## Example {{ role_name }} Playbook Usage
+
+```yaml
+---
+- name: "my example"
+  hosts: "all"
+  tasks:
+    - name: "Run {{ role_name }}"
+      include_role:
+        name: "{{ role_name }}"
+      vars:
+        myvar: "def"
+```
+
+## Author(s)
+[Author Name](mailto:myemail@email.com)

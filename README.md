@@ -4,7 +4,7 @@ An example Ansible Galaxy Role Skeleton to help enforce documentation standards.
 
 ## Usage
 ```bash
-ansible-galaxy init --role-skeleton=/path/to/cloned/role/skeleton/repository <NEW-ROLE-NAME-HERE>
+ansible-galaxy role init --role-skeleton=/path/to/cloned/role/skeleton/repository <NEW-ROLE-NAME-HERE>
 ```
 
 ## Author
